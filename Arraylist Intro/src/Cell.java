@@ -71,7 +71,7 @@ public class Cell {
 			time += 16; // roughly updated every 16 ms
 			color = Color.yellow;
 			if (time > 5000) {
-				if (Math.random() < 0.95) {
+				if (Math.random() < 0.50) {
 					status = 2;
 				} else {
 					status = 3;
