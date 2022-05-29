@@ -118,6 +118,7 @@ public class Driver extends JPanel implements ActionListener, MouseListener, Mou
 					
 		}
 		
+	// for re-infection
 	Timer t = new Timer(16, this);
 	
 	@Override
