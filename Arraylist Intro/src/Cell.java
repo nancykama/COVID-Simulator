@@ -61,7 +61,7 @@ public class Cell {
 		g.setColor(color);
 		g.fillOval(x, y, width, width);
 		
-		
+		//switch case implementation 
 		switch (status) {
 		case 0: //detect when 0
 			color = Color.green;
