@@ -5,7 +5,9 @@ public class Cell {
 	//instance variables should be private
 	private int x, y;
 	private int width;
-	private int vx, vy, ay = 0;
+	private int vx = 0; 
+	private int vy = 0;
+	private int ay = 0;
 	private Color color;
 	private double area; //helps with width calculation
 						 //as we consume other Cells
