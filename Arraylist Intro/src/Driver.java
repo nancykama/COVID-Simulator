@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.Timer;
+import javax.swing.Timer; 
 
 public class Driver extends JPanel implements ActionListener, MouseListener, MouseMotionListener{
 	//instance variables
