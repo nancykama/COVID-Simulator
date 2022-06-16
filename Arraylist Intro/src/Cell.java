@@ -72,7 +72,7 @@ public class Cell {
 		case 1: //infected
 			time += 16; // roughly updated every 16 ms
 			color = Color.yellow;
-			if (time > 5000) {
+			if (time > 4000) {
 				if (Math.random() < 0.90) {
 					status = 2;
 				} else {
