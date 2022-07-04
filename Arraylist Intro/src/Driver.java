@@ -54,7 +54,7 @@ public class Driver extends JPanel implements ActionListener, MouseListener, Mou
 		//writing to a spot in array
 		arr[0] = 1;
 		//reading from a spot
-		System.out.println(arr[0]);
+		System.out.println(arr[0]); 
 		
 		//new syntax: ArrayList can only hold objects
 		ArrayList<Integer> myList = new ArrayList<Integer>();
