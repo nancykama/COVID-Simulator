@@ -12,7 +12,7 @@ public class Cell {
 	private double area; //helps with width calculation
 						 //as we consume other Cells
 	//status?
-	//healthy: 0, infected: 1, recovered: 2, dead: 3 
+	//healthy: 0, infected: 1, recovered: 2, dead: 3  
 	int status = 0;
 	//default-constructor - no param
 	public Cell() {
