@@ -6,7 +6,7 @@ public class Cell {
 	private int x, y;
 	private int width;
 	private int vx = 0; 
-	private int vy = 0;
+	private int vy = 0; 
 	private int ay = 0;
 	private Color color;
 	private double area; //helps with width calculation
